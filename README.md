@@ -1,14 +1,10 @@
-# TestDriver Bot Playground
-
-# TestDriver.ai
+# TestDriver: Bot Playground
 
 Automate and scale QA with agentic users.
 
 [Docs](https://docs.testdriver.ai) | [Website](https://testdriver.ai) | [GitHub Action](https://github.com/marketplace/actions/testdriver-ai) | [Join our Discord](https://discord.gg/a8Cq739VWn)
 
 ---
-
-# Demo
 
 Ask [@testdriverbot](https://github.com/testdriverbot) to test your app within any issue or pull request! TestDriver is an agentic user tester, it has access to the entire OS and uses computer vision with mouse and keyboard control to simulate a real user.
 
