@@ -12,7 +12,7 @@ Automate and scale QA with agentic users. Next generation autonomous AI agent fo
 
 # TestDriver Bot Playground!
 
-Ask @testdriverbot to test your app within any issue or pull request! Just tag @testdriverbot and include a markdown list of tasks. [See the docs for more](Automate and scale QA with agentic users. Next generation autonomous AI agent for end-to-end testing of web & desktop.).
+Ask [@testdriverbot](https://github.com/testdriverbot) to test your app within any issue or pull request! Just tag [@testdriverbot](https://github.com/testdriverbot) and include a markdown list of tasks. [See the docs for more](Automate and scale QA with agentic users. Next generation autonomous AI agent for end-to-end testing of web & desktop.).
 
 ```sh
 @testdriverbot
