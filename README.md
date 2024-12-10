@@ -10,7 +10,11 @@ Automate and scale QA with agentic users.
 
 # Demo
 
-Ask [@testdriverbot](https://github.com/testdriverbot) to test your app within any issue or pull request! Just tag [@testdriverbot](https://github.com/testdriverbot) and include a markdown list of tasks. You can try it right now [in this repo](https://github.com/testdriverai/bot-playground/pull/1).
+Ask [@testdriverbot](https://github.com/testdriverbot) to test your app within any issue or pull request! TestDriver is an agentic user tester, it has access to the entire OS and uses computer vision with mouse and keyboard control to simulate a real user.
+
+Just tag [@testdriverbot](https://github.com/testdriverbot) and include a markdown list of tasks. TestDriver will attempt your tasks and generate a regression test.
+
+You can try it right now [in this repo](https://github.com/testdriverai/bot-playground/pull/1).
 
 ![CleanShot 2024-12-10 at 15 14 54](https://github.com/user-attachments/assets/790a89dc-c96b-44e7-8ee6-b4e559a8170e)
 
@@ -33,7 +37,9 @@ You can click on the animated GIF to see the full test recording.
 
 ![CleanShot 2024-12-10 at 15 15 55](https://github.com/user-attachments/assets/13de34c4-440d-45c1-b67c-cf5ea3a34e0b)
 
-# How do I turn this into a regression test?
+# FAQ
+
+## How do I turn this into a regression test?
 
 Add the `/save` command and TestDriver will generate a YML file. Then, use [our GitHub action](https://docs.testdriver.ai/continuous-integration/github-setup) to re-run this test on every PR, commit, or merge!
 
@@ -53,10 +59,10 @@ Add the `/save` command and TestDriver will generate a YML file. Then, use [our 
     FORCE_COLOR: "3"
 ```
 
-# Can this validate PRs?
+## Can this validate PRs?
 
 Yes! You need to deploy to GitHub pages, Vercel preview, or upload an artifact first. Then, have TestDriver download that artifact as part of the [prerun script](https://docs.testdriver.ai/continuous-integration/prerun-scripts).
 
-# Does this work for private repos?
+## Does this work for private repos?
 
 Yes, just add @testdriverbot as a collaborator.
